@@ -32,7 +32,7 @@ const Form = (props) => {
             newErrors.lastName = "";
         }
 
-        if (inputs.email.length < 5) {
+        if (inputs.email.length < 2) {
             newErrors.email = "Email must be at least 5 characters";
         } else {
             newErrors.email = "";
